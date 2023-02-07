@@ -8,10 +8,10 @@ const Home = () => {
         <div className='max-w-screen-lg mx-auto flex flex-col
         items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
-                <h2 className='text-4xl sm:text-6xl font-bold text-orange-500'>I'm Junior Science computer Developer !</h2>
+                <h2 className='text-4xl sm:text-6xl font-bold text-orange-500'>I'm Junior Computer Science Developer !</h2>
                 <h4 className='text-orange-500 py-4 max-w-md'>
                 Hello my name is Davinson, welcome to my portfolio,
-                I am passionate about new technologies for 4 years. Moreover,
+                I am passionate about new technologies for 4 years now. Moreover,
                 I enjoy to work on web application technologies.
                 </h4>
                 <div>
@@ -26,7 +26,7 @@ const Home = () => {
             </div>
             <div>
                 <img src={Head} alt="my profile" 
-                className=' mx-auto w-2/3 md:w-full'/>
+                className='shadow-2xl mx-auto w-2/3 md:w-full'/>
             </div>
         </div>
     </div>

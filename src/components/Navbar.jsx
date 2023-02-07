@@ -5,7 +5,7 @@ const Navbar = () => {
     //State
     const  [nav,setNav] = useState(false);
 
-    const links = [{id:1,link: "home"},{id:2,link: "about"},{id:3,link: "project"},{id:1,link: "CV"},{id:5,link: 'contact'},];
+    const links = [{id:1,link: "home"},{id:2,link: "about"},{id:3,link:"ThreeJS"},{id:4,link: "project"},{id:5,link: "CV"},{id:6,link: 'contact'},];
 
   return (
     <div className='flex justify-between w-full h20 p-3 text-white bg-purple-900 fixed'>
