@@ -10,12 +10,12 @@ const Navbar = () => {
   return (
     <div className='flex justify-between w-full h20 p-3 text-white bg-purple-900 fixed'>
     <div>
-        <h1 className=" text-3xl ml-2 text-orange-500">Portfolio</h1>
+        <h1 className=" text-3xl ml-2 text-orange-500 underline">Portfolio</h1>
     </div>
     <ul className='hidden md:flex'>
 
         {links.map(({id,link}) => (
-        <li key={id} className='px-10 cursor-pointer capitalize font-medium
+        <li key={id} className='px-10 py-2 cursor-pointer capitalize font-medium
         text-lime-100 hover:scale-110 duration-200'>{link}</li>
         ))}
     </ul>

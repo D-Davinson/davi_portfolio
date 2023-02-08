@@ -25,7 +25,7 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <img src={Head} alt="my profile" 
+                <img name="img" src={Head} alt="my profile" 
                 className='shadow-2xl mx-auto w-2/3 md:w-full'/>
             </div>
         </div>
@@ -33,4 +33,46 @@ const Home = () => {
   )
 }
 
+    /*
+    img.addEventListener('mouseenter' , (e) =>{
+    img.style.transition = "none";});
+
+
+        img.addEventListener("mouseleave", (e) => {
+        img.style.transition = "all 1.5s ease";
+        img.style.transform = `rotateY(0deg) rotateX(0deg)`;}); */
+
+/*
+const card = document.querySelector('.card');
+const container = document.querySelector('.container');
+const h1 = document.querySelector('.h1');
+const img = document.querySelector('.img');
+
+
+//Moving Animation Event
+container.addEventListener('mousemove', (e) => {
+    let xAixs = (window.innerWidth/2 - e.pageX)/15;
+    let yAixs = (window.innerHeight/2 - e.pageY)/15;
+    card.style.transform = `rotateY(${-xAixs}deg) rotateX(${-yAixs}deg)`;
+
+});
+
+//Animaiton in
+container.addEventListener('mouseenter' , (e) =>{
+    card.style.transition = "none";
+    h1.style.transform = 'translateZ(50px)';
+    //img.style.transform = 'translateZ(15px)';
+   
+});
+
+
+
+//Animation out
+container.addEventListener("mouseleave", (e) => {
+    card.style.transition = "all 1.5s ease";
+    card.style.transform = `rotateY(0deg) rotateX(0deg)`;
+    h1.style.transform = 'translateZ(0px)';
+    img.style.transform = 'translateZ(0px)';
+});
+*/
 export default Home
