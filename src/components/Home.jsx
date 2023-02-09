@@ -26,7 +26,7 @@ const Home = () => {
             </div>
             <div>
                 <img name="img" src={Head} alt="my profile" 
-                className='shadow-2xl mx-auto w-2/3 md:w-full'/>
+                className='shadow-2xl mx-auto w-2/3 md:w-full hover:scale-125 duration-500 hover:rotate-6'/>
             </div>
         </div>
     </div>
