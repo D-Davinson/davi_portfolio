@@ -16,7 +16,7 @@ const Home = () => {
                 </h4>
                 <div>
                     <button className=' group text-lime-200 w-fit px-3 py-3 mx-44 my-3 flex 
-                    items-center shadow-2xl rounded-md bg-orange-700 cursor-pointer'>
+                    items-center shadow-2xl rounded-md bg-orange-700 cursor-pointer hover:bg-lime-200 duration-700 hover:text-orange-700'>
                         Explore
                         <span className='mx-2 group-hover:rotate-180 duration-300'>
                             <AiOutlineCompass size={20}/>
@@ -26,7 +26,7 @@ const Home = () => {
             </div>
             <div>
                 <img name="img" src={Head} alt="my profile" 
-                className='shadow-2xl mx-auto w-2/3 md:w-full hover:scale-125 duration-500 hover:rotate-6'/>
+                className='shadow-2xl mx-auto w-2/3 md:w-full hover:scale-125 duration-500'/>
             </div>
         </div>
     </div>
