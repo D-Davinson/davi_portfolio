@@ -6,10 +6,10 @@ import Langages from "./components/Langages";
 function App() {
   return (
     <div>
-      <Navbar />
-        <Home />
-          <About />
-            <Langages />
+    <Navbar />
+    <Home />
+    <About />
+    <Langages />
     </div>
   );
 }
