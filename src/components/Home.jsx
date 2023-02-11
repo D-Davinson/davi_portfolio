@@ -10,16 +10,16 @@ const Home = () => {
             <div className='flex flex-col justify-center h-full'>
                 <h2 className='text-4xl sm:text-6xl font-bold text-orange-500'>I'm Junior Computer Science Developer !</h2>
                 <h4 className='text-orange-500 py-4 max-w-md'>
-                Hello my name is Davinson, welcome to my portfolio,
-                I am passionate about new technologies for 4 years now. Moreover,
-                I enjoy to work on web application technologies.
+                Hello my name is <span className='text-xl text-lime-300 font-semibold'>Davinson</span>, welcome to my portfolio,
+                I am passionate about new technologies for <span className='text-xl text-lime-300 font-light'>4 years</span> now. Moreover,
+                I enjoy to work on <span className='text-xl text-lime-300 font-light'>web application technologies</span>.
                 </h4>
                 <div>
                 <a href="https://D-Davinson.github.io/Card_Davi/" target="website">
                     <button className=' group text-lime-200 w-fit px-3 py-3 mx-44 my-3 flex 
                     items-center shadow-2xl rounded-md bg-orange-700 cursor-pointer hover:bg-lime-200 duration-700 hover:text-orange-700'>
                         Explore
-                        <span className='mx-2 group-hover:rotate-180 duration-300'>
+                        <span className='mx-2  group-hover:animate-spin duration-300'>
                             <AiOutlineCompass size={20}/>
                         </span>    
                     </button>

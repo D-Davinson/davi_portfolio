@@ -8,7 +8,7 @@ const Navbar = () => {
     const links = [{id:1,link: "home"},{id:2,link: "about"},{id:3,link:"Langages"},{id:4,link: "Projects"},{id:5,link: "CV"},{id:6,link: 'Contact'},];
 
   return (
-    <div className='flex justify-between w-full h20 p-3 text-white bg-purple-900 fixed'>
+    <div className='flex justify-between z-10 w-full h20 p-3 text-white bg-purple-900 fixed'>
     <div>
         <h1 className=" text-3xl ml-2 text-orange-500 underline">Portfolio</h1>
     </div>
@@ -19,7 +19,7 @@ const Navbar = () => {
         text-lime-300 hover:scale-110 duration-200 hover:underline hover:bg-gray-600 hover:opacity-80 '>{link}</li>
         ))}
     </ul>
-    <div onClick={()=> setNav(!nav)} className='cursor-pointer pr-3 z-10 text-orange-500 hover:scale-110 duration-200 md:hidden'>
+    <div onClick={()=> setNav(!nav)} className='cursor-pointer pr-3 z-20 text-orange-500 hover:scale-110 duration-200 md:hidden'>
         {nav ? <AiFillStar size={30} /> : <FaBars size={30}/>} 
     </div>    
         {nav &&(
