@@ -15,6 +15,7 @@ const Home = () => {
                 I enjoy to work on web application technologies.
                 </h4>
                 <div>
+                <a href="https://D-Davinson.github.io/Card_Davi/" target="website">
                     <button className=' group text-lime-200 w-fit px-3 py-3 mx-44 my-3 flex 
                     items-center shadow-2xl rounded-md bg-orange-700 cursor-pointer hover:bg-lime-200 duration-700 hover:text-orange-700'>
                         Explore
@@ -22,11 +23,13 @@ const Home = () => {
                             <AiOutlineCompass size={20}/>
                         </span>    
                     </button>
+                   </a> 
                 </div>
             </div>
             <div>
-                <img name="img" src={Head} alt="my profile" 
-                className='shadow-2xl mx-auto w-2/3 md:w-full hover:scale-125 duration-500'/>
+                    <img name="img" src={Head} alt="my profile" 
+                className='shadow-2xl cursor-pointer mx-auto w-2/3 md:w-full hover:scale-125 duration-500'/>
+                
             </div>
         </div>
     </div>
