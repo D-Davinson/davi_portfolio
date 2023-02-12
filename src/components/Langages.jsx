@@ -28,7 +28,7 @@ const svg  = [{id:1 ,name:"JavaScript", img:Javascript, href:"https://developer.
 
   return (
     <div className='h-screen bg-orange-500'>
-    <div className='max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full h-full bg-orange-500'>
+    <div name='Langages' className='max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full h-full bg-orange-500'>
       <div className='group text-lime-300 font-light text-3xl inline border-b-4 border-lime-300  hover:text-purple-800 hover:border-purple-800 hover:duration-700'>
       <CiMobile3 size={35} className='flex my-1 mx-2 group-hover:rotate-90 duration-700 '/>Langages</div>
       <div className='flex p-10 gap-5 justify-center '>

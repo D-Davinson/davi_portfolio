@@ -4,6 +4,7 @@ import About from "./components/About";
 import Langages from "./components/Langages";
 import Projects from "./components/Projects";
 import Social_Link from "./components/Social_Link";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Langages />
               <Projects />
                 <Social_Link />
+                  <Footer />
     </div>
   );
 }

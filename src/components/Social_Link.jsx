@@ -3,26 +3,25 @@ import {FiGithub} from 'react-icons/fi'
 import {SiMailchimp} from 'react-icons/si'
 import {IoMailOpenOutline} from 'react-icons/io5'
 import {HiArrowUturnUp} from 'react-icons/hi2'
+import { Link } from "react-scroll"
+
 
 const Social_Link = () => {
   return (
     <div className='hidden lg:flex flex-col text-lime-300'>
-     <a href="https://D-Davinson.github.io/Card_Davi/">
-        <FiGithub className='left-5 bottom-[12%] fixed hover:scale-125 duration-700' size={35}/>
+     <a href="https://github.com/D-Davinson">
+        <FiGithub className='left-5 bottom-[14%] fixed hover:scale-125 duration-700' size={35}/>
      </a>   
-     <a href="https://D-Davinson.github.io/Card_Davi/">
-        <IoMailOpenOutline className='left-5 bottom-[5%] fixed hover:scale-125 duration-700' size={35}/>
+     <a href="mailto:doglasprincedavinson@gmail.com">
+        <IoMailOpenOutline className='left-5 bottom-[7%] fixed hover:scale-125 duration-700' size={35}/>
      </a> 
 
      <a href="/CV.pdf">
-        <SiMailchimp className='left-5 bottom-[19%] text-purple-800 animate-bounce fixed' size={35}/>
-        
+        <SiMailchimp className='left-5 bottom-[21%] text-purple-800 animate-bounce fixed' size={35}/>   
      </a> 
 
-     <a href="https://D-Davinson.github.io/Card_Davi/">
-        <HiArrowUturnUp className='right-7 bottom-[5%] fixed hover:scale-125 duration-700' size={30}/>
-        
-     </a> 
+     <Link to="Portfolio" smooth duration={500}><HiArrowUturnUp className='right-7 bottom-[7%] cursor-pointer fixed hover:scale-125 duration-700' size={30}/></Link>
+          
     </div>
   )
 }

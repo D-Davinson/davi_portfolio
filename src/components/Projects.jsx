@@ -17,7 +17,7 @@ const Projects = () => {
         <div className='p-8'>
           <p className='text-purple-800 font-light text-4xl border-b-4 inline border-purple-800'>Projects</p>
 
-          <div className='p-10 grid gap-8 lg:gap-10 lg:grid-cols-2 md:grid-cols-2 sm:grid-col-1 items-center'>
+          <div className='p-10 grid gap-8 lg:gap-10 lg:grid-cols-2 md:grid-cols-2 items-center grid-flow-col'>
             {products.map(({id,image,title,lang,github,demo,demo_link})=>(
               <div key={id} className='group flex flex-col rounded-xl shadow-2xl shadow-lime-500
                                         overflow-hidden bg-gradient-to-l from-orange-500 to-purple-800 hover:scale-110 duration-500'>
