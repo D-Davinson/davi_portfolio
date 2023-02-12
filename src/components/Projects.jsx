@@ -8,23 +8,32 @@ import {TfiLink} from 'react-icons/tfi'
 const Projects = () => {
   
   const products = [{id:1, image:p1 , title:"Pizzaria-MVC",lang:"100% Java/UML", github:"https://github.com/D-Davinson/PIZZERIAMVC"},
-                    {id:2, image:p2 , title:"Card-Davi",lang:"HTML/CSS/JavaScript", github:"https://github.com/D-Davinson/Card-Davi"},
-                  ];
+                    {id:2, image:p2 , title:"Card-Davi",lang:"HTML/CSS/JavaScript", github:"https://github.com/D-Davinson/Card_Davi",
+                      demo:"Demo",demo_link:"https://D-Davinson.github.io/Card_Davi/"},];
   
   return (
     <div className='h-screen bg-gradient-to-t from-purple-800 via-purple-700 to-orange-500'>
-      <div name='Projects' className='max-w-screen-lg px-4 mx-auto flex flex-col justify-start w-full h-full'>
+      <div name='Projects' className='max-w-screen-lg px-4 mx-auto justify-start w-full h-full'>
         <div className='p-8'>
-          <p className='text-purple-800 font-light  text-4xl border-b-4 inline border-purple-800'>Projects</p>
+          <p className='text-purple-800 font-light text-4xl border-b-4 inline border-purple-800'>Projects</p>
 
-          <div className='grid gap-8 lg:gap-14 lg:grid-cols-2'>
-            {products.map(({id,image,title,lang,github})=>(
-              <div key={id} className=' flex overflow-hidden rounded-xl shadow-black'>
-                <img src={image} alt={title} />
-                <div>
-                  <h2>{title}</h2>
-                    <a  href=""><FiGithub /></a>
-                    <a  href=""><TfiLink /></a>
+          <div className='p-10 grid gap-8 lg:gap-10 lg:grid-cols-2 md:grid-cols-2 sm:grid-col-1 items-center'>
+            {products.map(({id,image,title,lang,github,demo,demo_link})=>(
+              <div key={id} className='group flex flex-col rounded-xl shadow-2xl shadow-lime-500
+                                        overflow-hidden bg-gradient-to-l from-orange-500 to-purple-800 hover:scale-110 duration-500'>
+                <img src={image} alt={title}/>
+                <div className='text-lime-200'>
+                  <h2 className="flex justify-center text-2xl py-2">{title}</h2>
+                  <div className='p-3 mr-2'>  
+                    <a className='flex justify-end gap-2 font-extralight ' href={github}>CodeSource<FiGithub className='group-hover:-translate-x-32 duration-700' /></a>
+                    
+                    <div className='flex justify-between'>
+                      <a href={demo_link} className="text-lime-200 font-extralight ml-2 p-1 px-4 group-hover:animate-bounce hover:bg-lime-200
+                       hover:text-orange-700 rounded-xl duration-700">{demo}</a>
+                      <p className='flex gap-3 font-medium text-lime-300'>{lang}<TfiLink className='group-hover:animate-spin duration-500' /></p>
+                    </div>
+                    
+                  </div>
                 </div>
 
               </div>
