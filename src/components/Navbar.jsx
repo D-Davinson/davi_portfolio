@@ -17,9 +17,13 @@ const Navbar = () => {
 
 
         {links.map(({id,link}) => (
-        <li  key={id} className='mx-9 px-2 py-2 cursor-pointer rounded-xl capitalize font-medium
+        <li key={id} className='mx-9 px-2 py-2 cursor-pointer rounded-xl capitalize font-medium
         text-lime-300 hover:scale-110 duration-200 hover:underline hover:bg-gray-600 hover:opacity-80'>
-            <Link to={link} smooth duration={500}>{link}</Link></li>
+            <Link to={link} smooth duration={700}> 
+                {link}
+            </Link>
+            </li>
+            
         ))}
     </ul>
     <div onClick={()=> setNav(!nav)} className='cursor-pointer pr-3 z-20 text-orange-500 hover:scale-110 duration-200 md:hidden'>
@@ -30,7 +34,7 @@ const Navbar = () => {
         absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-purple-900 to-orange-500 text-lime-100'>
         {links.map(({id,link}) => (
             <li key={id} className='px-4 cursor-pointer capitalize py-6 text-3xl hover:scale-110 duration-200'>
-                <Link onClick={()=>setNav(!nav)} to={link} smooth duration={500}>{link}</Link>
+                <Link onClick={()=>setNav(!nav)} to={link} smooth duration={700}>{link}</Link>
             </li>
     ))}
         </ul>
