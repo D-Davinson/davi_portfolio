@@ -8,7 +8,7 @@ const Navbar = () => {
     const links = [{id:1,link: "home"},{id:2,link: "about"},{id:3,link:"Langages"},{id:4,link: "Projects"},{id:5,link: "CV"},{id:6,link: 'Contact'},];
 
   return (
-    <div className='flex justify-between z-10 w-full h20 p-3 text-white bg-purple-900 fixed'>
+    <div className='flex justify-between z-10 w-full h20 p-3 text-white bg-purple-900 '>
     <div>
         <h1 className=" text-3xl ml-2 text-orange-500 underline">Portfolio</h1>
     </div>

@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Langages from "./components/Langages";
 import Projects from "./components/Projects";
+import Social_Link from "./components/Social_Link";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <About />
             <Langages />
               <Projects />
+                <Social_Link />
     </div>
   );
 }

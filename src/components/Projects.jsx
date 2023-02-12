@@ -12,7 +12,7 @@ const Projects = () => {
                       demo:"Demo",demo_link:"https://D-Davinson.github.io/Card_Davi/"},];
   
   return (
-    <div className='h-screen bg-gradient-to-t from-purple-800 via-purple-700 to-orange-500'>
+    <div className='h-screen bg-gradient-to-t from-purple-800 via-purple-800 to-orange-500'>
       <div name='Projects' className='max-w-screen-lg px-4 mx-auto justify-start w-full h-full'>
         <div className='p-8'>
           <p className='text-purple-800 font-light text-4xl border-b-4 inline border-purple-800'>Projects</p>
@@ -25,7 +25,7 @@ const Projects = () => {
                 <div className='text-lime-200'>
                   <h2 className="flex justify-center text-2xl py-2">{title}</h2>
                   <div className='p-3 mr-2'>  
-                    <a className='flex justify-end gap-2 font-extralight ' href={github}>CodeSource<FiGithub className='group-hover:-translate-x-32 duration-700' /></a>
+                    <a className='flex justify-end gap-2 font-extralight ' href={github}>CodeSource<FiGithub className='group-hover:rotate-12 duration-700' /></a>
                     
                     <div className='flex justify-between'>
                       <a href={demo_link} className="text-lime-200 font-extralight ml-2 p-1 px-4 group-hover:animate-bounce hover:bg-lime-200
