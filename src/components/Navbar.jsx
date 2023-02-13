@@ -9,16 +9,16 @@ const Navbar = () => {
     const links = [{id:1,link: "home"},{id:2,link: "About"},{id:3,link:"Langages"},{id:4,link: "Projects"},{id:5,link:"Resume"}];
 
   return (
-    <div name="Portfolio" className='flex justify-between z-10 w-full h20 p-3 text-white bg-purple-900 '>
+    <div name="Portfolio" className='flex justify-between z-10 w-full h20 p-3 text-white bg-slate-800 '>
     <div>
-        <h1 className=" text-3xl ml-2 text-orange-500 underline">Portfolio</h1>
+        <h1 className=" text-3xl ml-2 text-white underline">Portfolio</h1>
     </div>
     <ul className='hidden md:flex'>
 
 
         {links.map(({id,link}) => (
         <li key={id} className='mx-9 px-2 py-2 cursor-pointer rounded-xl capitalize font-medium
-        text-lime-300 hover:scale-110 duration-200 hover:underline hover:bg-gray-600 hover:opacity-80'>
+        text-lime-100 hover:scale-110 duration-200 hover:underline hover:bg-gray-600 hover:opacity-80'>
             <Link to={link} smooth duration={700}> 
                 {link}
             </Link>
