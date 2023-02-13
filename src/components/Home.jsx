@@ -17,7 +17,7 @@ const Home = () => {
                 <div>
                 <a href="https://D-Davinson.github.io/Card_Davi/" target="website">
                     <button className=' group text-lime-200 w-fit px-3 py-3 mx-44 my-3 flex 
-                    items-center shadow-2xl rounded-md bg-slate-800 cursor-pointer hover:bg-lime-200 duration-700 hover:text-orange-700'>
+                    items-center shadow-2xl rounded-md bg-slate-800 cursor-pointer hover:bg-lime-200 duration-700 hover:text-slate-800'>
                         Explore
                         <span className='mx-2  group-hover:animate-spin duration-300'>
                             <AiOutlineCompass size={20}/>
@@ -34,47 +34,4 @@ const Home = () => {
     </div>
   )
 }
-
-    /*
-    img.addEventListener('mouseenter' , (e) =>{
-    img.style.transition = "none";});
-
-
-        img.addEventListener("mouseleave", (e) => {
-        img.style.transition = "all 1.5s ease";
-        img.style.transform = `rotateY(0deg) rotateX(0deg)`;}); */
-
-/*
-const card = document.querySelector('.card');
-const container = document.querySelector('.container');
-const h1 = document.querySelector('.h1');
-const img = document.querySelector('.img');
-
-
-//Moving Animation Event
-container.addEventListener('mousemove', (e) => {
-    let xAixs = (window.innerWidth/2 - e.pageX)/15;
-    let yAixs = (window.innerHeight/2 - e.pageY)/15;
-    card.style.transform = `rotateY(${-xAixs}deg) rotateX(${-yAixs}deg)`;
-
-});
-
-//Animaiton in
-container.addEventListener('mouseenter' , (e) =>{
-    card.style.transition = "none";
-    h1.style.transform = 'translateZ(50px)';
-    //img.style.transform = 'translateZ(15px)';
-   
-});
-
-
-
-//Animation out
-container.addEventListener("mouseleave", (e) => {
-    card.style.transition = "all 1.5s ease";
-    card.style.transform = `rotateY(0deg) rotateX(0deg)`;
-    h1.style.transform = 'translateZ(0px)';
-    img.style.transform = 'translateZ(0px)';
-});
-*/
 export default Home

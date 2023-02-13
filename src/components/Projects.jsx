@@ -31,19 +31,9 @@ const Projects = () => {
                       <a href={demo_link} className="text-lime-200 font-extralight ml-2 p-1 px-4 group-hover:animate-bounce hover:bg-lime-200
                        hover:text-orange-700 rounded-xl duration-700">{demo}</a>
                       <p className='flex gap-3 font-medium text-lime-300'>{lang}<TfiLink className='group-hover:animate-spin duration-500' /></p>
-                    </div>
-                    
-                  </div>
-                </div>
-
-              </div>
+                    </div></div></div> </div>
             ))}
-
-          </div>
-
-        </div>
-        
-      </div>
+            </div></div></div>
     </div>
   )
 }

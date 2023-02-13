@@ -21,9 +21,9 @@ const Social_Link = () => {
      </a>
      
      <a href="https://www.linkedin.com/in/d-davinson/">
-        <FiLinkedin className='left-5 bottom-[21%] fixed hover:text-lime-500 duration-700' size={35}/>   
+        <FiLinkedin className='left-5 bottom-[21%] fixed hover:scale-125 hover:text-lime-500 duration-700' size={35}/>   
      </a> 
-     <Link to="Portfolio" smooth duration={500}><HiArrowUturnUp className='right-7 bottom-[7%] cursor-pointer fixed hover:scale-125 duration-700' size={30}/></Link>      
+     <Link to="Portfolio" smooth duration={500}><HiArrowUturnUp className='right-7 bottom-[7%] cursor-pointer fixed hover:scale-125 hover:text-lime-500 duration-700' size={30}/></Link>      
     </div>
   )
 }
