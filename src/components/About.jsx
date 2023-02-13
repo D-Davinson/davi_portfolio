@@ -15,9 +15,7 @@ const About = () => {
         <br />
         <p className='text-gray-300 text-xl font-extralight'>
           During my courses i did many porjets with differents langages and every 
-          side part (front-end/back-end) such as for front i used <span className='text-lime-500 font-semibold text-2xl'>HTML/CSS JavaScript</span> 
-          or the back with <span className='text-lime-500 font-semibold text-2xl'>mongoDB</span> but also differents <span className='text-lime-500 font-semibold text-2xl'>Framework</span>
-           for example <span className='text-lime-500 font-semibold text-2xl'>React Native</span>.
+          side part (front-end/back-end) such as for front i used <span className='text-lime-500 font-semibold text-2xl'>HTML/CSS JavaScript</span> or the back with <span className='text-lime-500 font-semibold text-2xl'>mongoDB</span> but also differents <span className='text-lime-500 font-semibold text-2xl'>Framework</span> for example <span className='text-lime-500 font-semibold text-2xl'>React Native</span>.
         </p>
       </div>
     </div>
