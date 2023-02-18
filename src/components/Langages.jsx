@@ -3,7 +3,6 @@ import Javascript from "../assets/svg/logo-javascript.svg"
 import Html1 from "../assets/svg/html-1.svg"
 import css from "../assets/svg/css-3.svg"
 import ocaml from "../assets/svg/ocaml.svg"
-// import python from "../assets/svg/python-5.svg"
 import react from "../assets/svg/react-2.svg"
 import tailwindcss from "../assets/svg/tailwindcss.svg"
 import Vite from "../assets/svg/vitejs.svg"
@@ -20,7 +19,6 @@ const fram_work = [{id:1,name:"reactJs",framework:react,href:"https://en.reactjs
 
 const svg  = [{id:1 ,name:"JavaScript", img:Javascript, href:"https://developer.mozilla.org/fr/docs/Web/JavaScript"},
               {id:7, name:"Java", img:Java,href:"https://docs.oracle.com/en/java/"},
-              // {id:2 ,name:"Python", img:python,href:"http://python.org/"},
               {id:3,name:"HTML", img:Html1,href:"https://devdocs.io/html/"},
               {id:4,name:"CSS",img:css,href:"https://devdocs.io/css/"},
               {id:5 ,name:"C", img:c,href:"https://devdocs.io/c/"},
