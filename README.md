@@ -1,6 +1,6 @@
 # Portfolio
 
-Create a portfolio with differents framework
+Create a portfolio with differents frameworks
 
 ## Frameworks
 
