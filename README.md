@@ -14,7 +14,7 @@ Tailwindcss
 
 ## Author
 
--   [@D-Davinson](https://www.github.com/D-Davinson)
+-   [D-Davinson](https://www.github.com/D-Davinson)
 
 
 
