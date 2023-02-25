@@ -10,7 +10,7 @@ const About = () => {
         <p className='text-gray-300 text-xl mt-10 font-extralight '>
         As a holder of a scientific baccalaureate specialized in <span className='text-lime-500 font-semibold text-2xl'>engineering science</span>, I continued in this technological
         path by joining the <span className='text-lime-500 font-semibold text-2xl'>University of Paris-Saclay</span> (UEVE). For 4 years I have been specializing in <span className='text-lime-500 font-semibold text-2xl'>M.I.A.GE</span> (computer
-        methods applied to business management). I can work in a team as well as lead a project alone.
+        methods applied to business management). I can work in a team.
         </p>
         <br />
         <p className='text-gray-300 text-xl font-extralight'>
