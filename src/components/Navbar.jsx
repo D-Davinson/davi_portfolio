@@ -20,7 +20,7 @@ const Navbar = () => {
         <li key={id} className='group px-4 mx-4 py-2 cursor-pointer rounded-xl capitalize font-medium
         text-lime-100 hover:scale-110 duration-200 hover:underline hover:bg-gray-600 hover:text-lime-500 hover:opacity-80'>
             <Link to={lien} smooth duration={700}> {lien}</Link>
-            <a href="/CV.pdf">{lhref}</a> 
+            <a href="/CV_2.0.pdf">{lhref}</a> 
         </li>
             
         ))}
@@ -34,7 +34,7 @@ const Navbar = () => {
         {links.map(({id,lien,lhref}) => (
             <li key={id} className='px-4 cursor-pointer capitalize py-6 text-3xl hover:scale-110 duration-200'>
                 <Link onClick={()=>setNav(!nav)} to={lien} smooth duration={700}>{lien}</Link>
-                <a href="/CV.pdf">{lhref}</a> 
+                <a href="/CV_2.0.pdf">{lhref}</a> 
             </li>
     ))}
         </ul>
