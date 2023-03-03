@@ -17,7 +17,7 @@ const About = () => {
           During my courses i did many projets with differents langages and every 
           side part (front-end/back-end) such as for front i used <span className='text-lime-500 font-semibold text-2xl'>HTML/CSS JavaScript</span> or the back with <span className='text-lime-500
           font-semibold text-2xl'>mongoDB</span> but also differents <span className='text-lime-500 
-          font-semibold text-2xl'>Framework</span> for example <span className='text-lime-500 font-semibold text-2xl'>React Native</span>.
+          font-semibold text-2xl'>Framework</span> for example <span className='text-lime-500 font-semibold text-2xl'>ReactJS</span>.
         </p>
       </div>
     </div>
