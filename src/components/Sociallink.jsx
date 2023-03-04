@@ -16,7 +16,7 @@ const Social_Link = () => {
         <IoMailOpenOutline className='left-5 bottom-[7%] fixed hover:scale-125 hover:text-lime-500 duration-700' size={35}/>
      </a> 
 
-     <a href="/CV.pdf">
+     <a href="/CV_2.0.pdf">
         <SiMailchimp className='left-5 bottom-[28%]  animate-bounce fixed hover:text-lime-500 duration-700' size={35}/>   
      </a>
      
