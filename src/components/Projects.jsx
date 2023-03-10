@@ -13,7 +13,7 @@ const Projects = () => {
   
   return (
     <div className='bg-gradient-to-t from-blue-900 via-blue-900 to-gray-800'>
-      <div name='Projects' className='max-w-screen-lg px-4 mx-auto justify-start w-full h-full'>
+      <div name='Projects' className='max-w-screen-lg mx-auto justify-center w-full h-full'>
         <div className='p-8'>
           <p className='text-white font-light text-4xl border-b-4 inline border-lime-500'>Projects</p>
 
@@ -23,7 +23,7 @@ const Projects = () => {
                                         overflow-hidden bg-gradient-to-b from-gray-800 via-gray-800 to-blue-900 hover:scale-110 duration-500'>
                 <img src={image} alt={title}/>
                 <div className='text-lime-200'>
-                  <h2 className="flex justify-center text-2xl sm:text-xs py-2">{title}</h2>
+                  <h2 className="flex justify-center text-2xl sm:text-3xl py-2">{title}</h2>
                   <div className='p-3 mr-2'>  
                     <a className='flex justify-end gap-2 font-extralight ' href={github}>CodeSource<FiGithub className='group-hover:rotate-12 duration-700' /></a>
                     

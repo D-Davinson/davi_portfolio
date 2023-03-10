@@ -25,14 +25,14 @@ const svg  = [{id:1 ,name:"JavaScript", img:Javascript, href:"https://developer.
               {id:6 , img:ocaml, href:"https://ocaml.org"},];
 
   return (
-    <div className='h-screen bg-gray-800'>
-    <div name='Langages' className='max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full h-full bg-gray-800'>
+    <div className='h-full justify-center bg-gray-800'>
+    <div name='Langages' className='mx-auto px-4 lg:px-32 flex flex-col justify-center w-full h-full bg-gray-800'>
       <div className='group text-lime-300 font-light text-3xl inline border-b-4 border-lime-300  hover:text-orange-500 hover:border-orange-500 hover:duration-700'>
       <CiMobile3 size={35} className='flex my-1 mx-2 group-hover:rotate-90 duration-700 '/>Langages</div>
-      <div className='flex p-10 gap-5 justify-center '>
+      <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 p-10 gap-5 justify-center '>
       {
           svg.map(({id,img,href,name})=>(
-          <button className='group text-lime-300 font-light capitalize text-2xl hover:text-orange-500 hover:duration-700'>  
+          <button className='group lg:ml-16 text-lime-300 font-light capitalize text-2xl hover:text-orange-500 hover:duration-700'>  
           <a key={id} href={href} target="website">
             <img className='hover:drop-shadow-2xl duration-300' width={100} height={100} src={img} alt="logo"/>
           </a>
@@ -43,7 +43,7 @@ const svg  = [{id:1 ,name:"JavaScript", img:Javascript, href:"https://developer.
       </div>
       <div className='group text-lime-300 font-light text-3xl inline border-b-4 border-lime-300 hover:text-orange-500 hover:border-orange-500 hover:duration-700'>
         <IoExtensionPuzzleOutline size={35} className='flex my-1 mx-2 group-hover:rotate-45 duration-300 '/>FrameWork</div>
-      <div className=' flex p-10 gap-20 justify-center'>
+      <div className='grid grid-col lg:flex lg:p-10 lg:gap-20 justify-center'>
       {
           fram_work.map(({id,framework,href,name})=>(
           <button className='  text-lime-300 font-light capitalize text-2xl hover:text-orange-500 hover:duration-700'> 
